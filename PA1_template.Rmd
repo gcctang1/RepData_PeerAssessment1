@@ -110,3 +110,4 @@ par(mfrow=c(2,1))
 with(weekday, plot(interval,avg, xlab="", ylab="Average No. of Steps", ylim=c(0,250),main="Weekday", type ="l"))
 with(weekend, plot(interval,avg, xlab="Interval", ylab="Average No. of Steps", ylim=c(0,250), main="Weekend", type="l"))
 ```
+The figures show that the activity patterns between weekdays and weekends are different.  Activity starts earlier during weekdays. but there are more activitiies overall during the daytime in the weekends.  
